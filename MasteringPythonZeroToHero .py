@@ -7,69 +7,16 @@
 
 
 x = input("Please Enter a Number: ")
-
-
-# In[3]:
-
-
 type(x)
-
-
-# In[4]:
-
-
 x= int(x)
-
-
-# In[5]:
-
-
 type(x)
-
-
-# In[7]:
-
-
-print(x-36)
-
-
-# In[8]:
-
-
-a = float(input("Enter a Real Number :"))
-
-
-# In[9]:
-
-
-type(a)
-
-
-# In[10]:
-
 
 b = float(input("Enter a Real Number :"))
 
-
-# In[16]:
-
-
 get_ipython().run_line_magic('pinfo2', 'isinstance')
 
-
-# In[15]:
-
-
 isinstance(x,int)
-
-
-# In[1]:
-
-
 help(pow)
-
-
-# In[31]:
 
 
 a = int(input("Enter First Number :"))
@@ -80,9 +27,6 @@ elif(b > a):
     print(b)
 else:
     print("Both numbers are equal")
-
-
-# In[3]:
 
 
 a = int(input("Enter Marks : "))
@@ -97,10 +41,6 @@ elif (a < 75) and (a >= 70):
 else:
     print("Below Average Grades")
 
-
-# In[7]:
-
-
 a = int(input("Enter a number : "))
 if a > 10:
     print("Number is greater than 10")
@@ -109,9 +49,6 @@ if a > 10:
     else:
         print("but not greater than 20")
 print("Number is less than 10")
-
-
-# In[8]:
 
 
 #Example Program
@@ -871,20 +808,10 @@ from functools import reduce
 reduce(lambda x, y: x*y, curves)
 
 
-# In[ ]:
-
-
-
-
-
-# In[71]:
-
 
 df = pd.read_csv('C:/Users/Owner/Desktop/job.csv')
 df2= df.groupby('Direction') 
 
-
-# In[103]:
 
 
 df = pd.read_csv('C:/Users/Owner/Desktop/job.csv')
@@ -899,42 +826,9 @@ Curves = Curve_left * Curve_right * Curve_straight
 Curves
 
 
-# In[ ]:
-
-
-
-
-
-# In[126]:
-
 
 df = pd.read_csv('C:/Users/Owner/Desktop/job.csv')
 colors =  {"Left": "blue", "Right": "red", "Straight" : "green"}
 curves = []
 for name, group in df.groupby('Direction'):
     print(group)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
